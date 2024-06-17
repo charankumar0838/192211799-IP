@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Let's go</title>
+    <style>
+        div{
+            background-image: linear-gradient(rgba(196, 183, 196, 0),rgba(255, 255, 255, 0) 70%), url(./Images/be3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            padding: 200px;
+            
+        }
+        input,button{
+            display: block;
+            margin: 10px auto;
+            width: 40%;
+            height: 5vh;
+            margin-top: 20px;
+            background-color: rgba(243, 252, 252, 0.867);
+            color: rgb(12, 66, 108);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div >
+        <form onsubmit="loginPage(event)">
+            <input type="email" name="email" placeholder="Enter email">
+    <input type="password" name="psw" placeholder="Enter password">
+    <button>LOGIN</button>
+        </form>
+    </div>
+   <script src="./style/app.js"></script>
+</body>
+</html>
