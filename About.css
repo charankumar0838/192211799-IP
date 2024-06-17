@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-image: linear-gradient(rgb(249, 249, 180),rgb(193, 131, 131),rgb(222, 222, 144),rgb(101, 101, 155)
+    ); */
+    /* background-image: url(../Images/paper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    border: 1px solid rgba(250, 253, 254, 0.308);
+    box-shadow: black blueviolet;
+    background-image: url(../Images/gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+ol{
+    background-color: rgb(21, 20, 20);
+    height: 3.5rem;
+    top:10px;
+    position: sticky;
+    }
+ol li{
+     display: inline-block;
+     float: right;
+     padding-top: 17px;
+     padding-left: 20px;
+     padding-right: 40px;
+    
+}
+a img[alt="main"]{
+    padding-top: 2px;
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+}
+.class2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-family:Arial, Helvetica, sans-serif
+}
+.class2 a:hover{
+    border-bottom: 1px solid  white ;
+    padding-top: 6px;
+    padding-bottom:6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.class2{
+    border: 1px solid rgba(187, 209, 41, 0.281);
+    box-shadow: 1px 10px 10px rgba(249, 102, 23, 0.393);
+    border-radius:5px;
+}
+.sedgwick-ave-display-regular {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding-top: 50px;
+  font-size:  2.5rem;
+  color: rgba(23, 22, 22, 0.779);
+}
+.manali{
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    /* border: 1px solid;
+    border-radius: 50%; */
+   }
+
+
+/* ============================================================================================================= */
+.division1{
+    background-image: url("../Images/m.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.division2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../Images/italyy.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+   .container{
+    display: flex;
+    
+    padding-bottom: 50px;
+   }
+  
+   .yes{
+    margin-top:-95px;
+    height:250px;
+    margin-left: 500px;
+
+   }
+   
+   div img[alt="manali"]{
+    height: 250px;
+    width: 280px;
+    border-radius: 50%;
+    margin-left:950px;
+    margin-top:-110px;
+    
+}
+  
+    .div{
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    width: 350px;
+    height: 400px;
+    background-image: url("../Images/Summer1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -2px 14px 6px  #070707;
+    
+}
+
+.div2{
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    width: 350px;
+    height: 400px;
+    /* background-image: ; */
+    background: linear-gradient(rgba(128, 128, 128, 0),rgba(128, 128, 128, 0.658)), url("../Images/winter3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -2px 14px 6px#070707;
+    /* 5px 10px 8px */
+}
+.div3 {
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    width: 350px;
+    height: 400px;
+    /* background-image: ; */
+    background: linear-gradient(rgba(128, 128, 128, 0),rgba(128, 128, 128, 0.297)), url("../Images/Spring.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -2px 14px 6px #070707;
+}
+
+.div4{
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    width: 350px;
+    height: 400px;
+    /* background-image: ; */
+    background: linear-gradient(rgba(128, 128, 128, 0),rgba(128, 128, 128, 0.658)), url("../Images/mainautumn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -2px 14px 6px #070707;
+}
+.div5{
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    width: 350px;
+    height: 400px;
+    /* background-image: ; */
+    background: linear-gradient(rgba(128, 128, 128, 0),rgba(128, 128, 128, 0.658)), url("../Images/kidssss.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -2px 14px 6px #070707;
+}
+.div6{
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    width: 350px;
+    height: 400px;
+    /* background-image: ; */
+    background: linear-gradient(rgba(128, 128, 128, 0),rgba(128, 128, 128, 0.658)), url("../Images/spiritual.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: -2px 14px 6px #070707;
+}
+.container123{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.div1 .div2{
+    color: rgba(151, 146, 146, 0.573);
+    padding-left: 10px;
+}
+input{
+    border-radius: 10px ;
+    border: 10px 10px 4px 10px;
+}
+button{
+    border:solid rgba(7, 7, 7, 0.831);
+    padding: 10px;
+    margin-left: 210px;
+    border-radius:9px ;
+    color: rgb(238, 238, 230);
+    background-color: rgb(13, 12, 11);
+}
+
+.btn button{
+    border: 2px solid black;
+    
+    background-color: beige;
+    color: rgb(19, 19, 147);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 20px;
+    margin: 10px 10px 10px 710px;
+    /* margin:10px auto; */
+}
+.new1{
+    display: flex ;
+    justify-content: center;  
+}
+ div img[alt="zindagi"]{
+    height: 250px;
+    width: 350px;
+    border-radius: 50%;
+}
+.new1 video{
+    border: 0px solid; 
+    border-radius:115px 104px 94px 97px; 
+}
+
+.yes video{
+     border: 0px solid; 
+    border-radius:205px 10px 94px 97px;
+}
+.mark{
+    margin-top: 20px;
+    height: 50px;
+    font-size: 2rem;
+    border:0px solid;
+    background-color: rgb(244, 244, 90);
+    top:10px;
+    position: sticky;
+}
+.mark :hover{
+    box-shadow: -2px 14px 6px #070707;
+    font-weight: bold;
+    /* 3px 4px 3px */
+    text-shadow: 3px 4px 3px rgb(52, 52,76);
+    background-color: white;
+}
+.welcome{
+    text-align:center;
+    font-weight: 600;
+}
+.footer{
+    border: 1px solid;
+   background-color: rgba(47, 50, 49, 0.744);
+   margin-top: 50px;
+   margin-bottom: 20px;
+}
+.details{
+    margin-top: 10px;
+  margin-left: 520px;
+}
+p{
+    text-align: center;
+}

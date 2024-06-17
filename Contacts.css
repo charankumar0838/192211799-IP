@@ -1,0 +1,76 @@
+ol{
+    background-color: rgb(21, 20, 20);
+    height: 3.5rem;
+    }
+ol li{
+     display: inline-block;
+     float: right;
+     padding-top: 17px;
+     padding-left: 20px;
+     padding-right: 40px;
+    
+}
+a img[alt="main"]{
+    padding-top: 2px;
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+}
+.class2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif
+}
+.class2 a:hover{
+    border-bottom: 1px solid white;
+    padding-top: 2px;
+    padding-bottom:6px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.class2{
+    border: 1px solid rgba(187, 209, 41, 0.281);
+    box-shadow: 1px 10px 10px rgba(249, 102, 23, 0.393);
+    border-radius:5px;
+}
+.sedgwick-ave-display-regular {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding-top: 30px;
+  font-size:  2rem;
+  color: rgba(7, 1, 1, 0.97);
+text-shadow: 3px 3px 1px rgba(226, 110, 43, 0.628),5px 7px 1px rgb(214, 13, 164);
+}
+body{
+    background-image: url(../Images/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.details{
+    margin-top: 150px;
+  margin-left: 520px;
+}
+p{
+    text-align: center;
+}
+.sedgwick-ave-display-regular h1{
+    animation-name: letsgo;
+    animation-duration: 1s;
+    animation-iteration-count:1;
+}
+@keyframes letsgo{
+    0%{transform: rotate(10deg);}
+    100%{transform:rotate(360deg);}
+}
+h1:hover{
+    animation-name: lets;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes lets{
+    0%{transform: rotate(10deg);}
+    100%{transform:rotate(360deg);}
